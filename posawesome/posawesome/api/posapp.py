@@ -14,8 +14,7 @@ from frappe.utils.background_jobs import enqueue
 from erpnext.accounts.party import get_party_bank_account
 from erpnext.stock.doctype.batch.batch import (
     get_batch_no,
-    get_batch_qty,
-    set_batch_nos,
+    get_batch_qty
 )
 from erpnext.accounts.doctype.payment_request.payment_request import (
     get_dummy_message,
